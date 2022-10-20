@@ -171,5 +171,5 @@ const loadPosts = async () =>{
   let data = await fetch('https://raw.githubusercontent.com/ProgrammingHero1/insta-shohor/main/data/posts.json');
   posts = await data.json();
   showPosts(posts);
-}
+};
 loadPosts();
