@@ -2,6 +2,7 @@ let posts=[];
 
 const likedPostsId = [];
 const reportedPostsId = [];
+
 let alreadyLikedPost = [];
 let alreadyReportedPost = [];
 
